@@ -1,6 +1,6 @@
 {
-    "coin": "turtlecoin",
-    "symbol": "TRTL",
+    "coin": "petcoin",
+    "symbol": "XPET",
     "coinUnits": 100,
     "coinDifficultyTarget": 30,
 
@@ -19,7 +19,7 @@
   "poolServer": {
     "enabled": true,
     "clusterForks": "auto",
-    "poolAddress": "TRTLv3mnq2wS6GepH6nb628jEjFseeojACYToJ1BXaZNNEvLkzW327zTVCh7ncGtS2MU2usGNq9ygVwiCTTft9QkN3t5P2Xqv3f",
+    "poolAddress": "XPETK3kDmN72Y8n3vUeW5vJQqtnSdH8adJFvdmvAsT7GFmUXjLvioPfDdtMoMWdL2FVh768BzyqfWe9QNjKcabV229ACvSnpvo",
     "blockRefreshInterval": 1000,
     "minerTimeout": 3600,
     "ports": [
@@ -106,18 +106,18 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "pool"
     },
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 11898
+        "port": 11998
     },
 
     "wallet": {
         "host": "127.0.0.1",
         "port": 8070,
-        "password": "<replace with rpc password>"
+        "password": "pool"
     },
 
     "redis": {
