@@ -1,5 +1,4 @@
 
-====================
 Formerly known as cryptonote-forknote-pool, forked from Forknote Project.
 
 High performance Node.js (with native C addons) mining pool for Cryptonote based coins, created with the Forknote software such as Bytecoin, Dashcoin, etc..
@@ -378,16 +377,22 @@ point to your zip file.
 
 #### 4) Start the pool
 
+we need to now install forever so that this pool will remain running even on close of ssh
 ```bash
-node init.js
+npm install forever -g
 ```
-
+once installation done final start the pool
+```bash
+forever start init.js
+```
 The file `config.json` is used by default but a file can be specified using the `-config=file` command argument, for example:
 
 ```bash
 node init.js -config=config_backup.json
 ```
+This will show all running and start accepting share for your pool
 
+once installation done final start the pool
 This software contains four distinct modules:
 * `pool` - Which opens ports for miners to connect and processes shares
 * `api` - Used by the website to display network, pool and miners' data
