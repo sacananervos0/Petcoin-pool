@@ -1,5 +1,5 @@
 
-ormerly known as cryptonote-forknote-pool, forked from Forknote Project.
+Formerly known as cryptonote-forknote-pool, forked from Forknote Project.
 
 High performance Node.js (with native C addons) mining pool for Cryptonote based coins, created with the Forknote software such as Bytecoin, Dashcoin, etc..
 
